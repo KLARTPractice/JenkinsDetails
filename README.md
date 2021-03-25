@@ -10,29 +10,9 @@ E:\OpenJDk11-New
 
 E:\Maven-3.6.3\apache-maven-3.6.3
 
-###########  pom.xml dependencies
+###########  pom.xml dependencies ############ 
 
-
-<plugin>
-				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
-				<extensions>true</extensions>
-				<configuration>
-					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${mule.version}</muleVersion>
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
-						<environment>${env}</environment>
-						<applicationName>${appname}</applicationName>
-						<businessGroup>${business}</businessGroup>
-						<workerType>${vCore}</workerType>
-						<workers>${workers}</workers>
-						<objectStoreV2>true</objectStoreV2>
-					</cloudHubDeployment>
-				</configuration>
-			</plugin>
+find in pom.xml file <Plugin Section>
 
 
 ########### Mvn Command-Execute Windows Batch Command ################
